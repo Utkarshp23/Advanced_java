@@ -130,5 +130,25 @@ public class Employee {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public int hashCode() {
+		
+		return DEPTNO;
+	}
+	
+	public boolean equals(Object obj)
+	{
+		Employee e= null;
+		boolean f=false;
+		if(obj instanceof Employee)
+		{
+			e=(Employee)obj;
+			if(this.EMPNO==e.EMPNO && this.ENAME==e.ENAME && this.DEPTNO==e.DEPTNO && this.HIREDATE==e.HIREDATE && this.COMM==e.COMM && this.MGR==e.MGR && this.SAL==e.SAL && this.netsal==e.netsal && this.JOB==e.JOB)
+			{
+				f=true;
+			}
+		}
+		return f;
+	}
 
 }
