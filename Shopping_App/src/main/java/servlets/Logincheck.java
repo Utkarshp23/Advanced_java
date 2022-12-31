@@ -11,6 +11,7 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -62,6 +63,7 @@ public class Logincheck extends HttpServlet {
 		PreparedStatement stmt=null;
 		ResultSet rs=null;
 		
+		
 		try {
 			stmt=con.prepareStatement("select * from users where u_id=? and password=?");
 			stmt.setString(1, uid);
@@ -71,9 +73,25 @@ public class Logincheck extends HttpServlet {
 			
 			if(rs.next())
 			{
+				
+				Cookie []all= request.getCookies();
+				if(all!=null)
+				{
+					for(Cookie c: all)
+					{
+						if(c.getName().equals("loginerr"))
+						{
+							c.setMaxAge(0);
+							response.addCookie(c);
+						}
+					}
+				}
+				
 				RequestDispatcher rd= request.getRequestDispatcher("/home");
 				rd.forward(request, response);
 			}else {
+				Cookie c = new Cookie("loginerr","Login_failed");
+				response.addCookie(c);
 				response.sendRedirect("/Shopping_App/loginform.jsp");
 			}
 		} catch (SQLException e) {

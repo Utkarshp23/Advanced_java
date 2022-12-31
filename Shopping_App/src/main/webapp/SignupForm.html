@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="centre.css" />
+    <style>
+      body {
+        font-family: Kumbh Sans;
+      }
+
+      .form {
+        padding: 5px;
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      input {
+        /* text-decoration: underline; */
+        font-family: inherit;
+        border: none;
+        padding: 4px;
+        /* width: 20; */
+        /* line-height: ; */
+        border-bottom: 1px solid grey;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      .container {
+        width: 400px;
+        /* height: ; */
+        border: 1px solid #3e0f71;
+        padding: 3rem;
+        border-radius: 3rem;
+      }
+
+      .btn {
+        font-family: inherit;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        background-color: #6b53d3;
+        color: #ffffff;
+      }
+
+      .btn:hover {
+        background-color: #3e0f71;
+        cursor: pointer;
+      }
+
+      #nameStatus,
+      #emailStatus,
+      #pwdStatus,
+      #occStatus,
+      #monoStatus {
+        color: red;
+        font-size: 0.9rem;
+        padding-left: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <form
+        action="http://localhost:8080/Shopping_App/user/signup"
+        method="post"
+        name="form1"
+      >
+        <input type="text" name="uid" id="uid" placeholder="Enter username" />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Enter first name"
+          required
+        />
+        <input
+          type="text"
+          name="mname"
+          id="mname"
+          placeholder="Enter middle name"
+          required
+        />
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Enter last name"
+          required
+        />
+        <span id="nameStatus"></span>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <span id="emailStatus"></span>
+        <br />
+        <input
+          type="password"
+          name="pwd"
+          id="pwd"
+          placeholder="Enter password"
+          required
+        />
+        <span id="pwdStatus"></span>
+        <br />
+        <input
+          type="text"
+          name="mono"
+          id="mono"
+          placeholder="Enter Mobile no"
+          required
+        />
+        <span id="monoStatus"></span>
+        <br />
+
+        <br />
+        <button class="btn" type="submit">Signup</button>
+      </form>
+    </div>
+  </body>
+</html>
