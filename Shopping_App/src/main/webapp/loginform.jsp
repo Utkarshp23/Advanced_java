@@ -41,32 +41,7 @@
 
 <body>
 
-	<%
-	Cookie []all= request.getCookies();
-	boolean f=false;
-	if(all!=null)
-	{
-		for(Cookie c: all)
-		{
-			if(c.getName().equals("loginerr"))
-			{
-				f=true;
-			}
-		}
-	}
 	
-	if(!f)
-	{
-		for(Cookie c: all)
-		{
-			if(c.getName().equals("loginerr"))
-			{
-				c.setValue("");
-				response.addCookie(c);
-			}
-		}
-	}
-	%>
     <div class="form">
         <h4>Login Form</h4>
         <span>${cookie.loginerr.value}</span>

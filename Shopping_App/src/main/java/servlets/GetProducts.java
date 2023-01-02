@@ -68,14 +68,18 @@ public class GetProducts extends HttpServlet {
 			stmt.setInt(1, cat_id);
 			rs=stmt.executeQuery();
 			rd1.include(request, response);
+			String str="";
+			str+="<form action='addtocart'>";
+			str+="<select name='pid'>";
+			str+="<option>Select Product</option>";
 			while(rs.next())
 			{
-				out.println("PID: "+rs.getInt(1)+"<br/>");
-				out.println("Product Name: "+rs.getString(2)+"<br/>");
-				out.println("Desc: "+rs.getString(3)+"<br/>");
-				out.println("Price: "+rs.getString(4)+"<br/>");
-				out.println("----------------------------------------------<br/>");
+				str+="<option value="+rs.getInt(1)+">"+rs.getString(2)+"</option>";	
 			}
+			str+="</select><br/><br/>";
+			str+="<button type='submit'>Add to Cart</button>";
+			str+="</form>";
+			out.print(str);
 			rd2.include(request, response);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

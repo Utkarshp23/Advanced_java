@@ -15,6 +15,9 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import entities.User;
 
 /**
  * Servlet implementation class Logincheck
@@ -86,6 +89,10 @@ public class Logincheck extends HttpServlet {
 						}
 					}
 				}
+				HttpSession session= request.getSession();
+				
+				User u= new User(rs.getString(1),rs.getString(3),rs.getString(5));
+				session.setAttribute("user", u);
 				
 				RequestDispatcher rd= request.getRequestDispatcher("/home");
 				rd.forward(request, response);
