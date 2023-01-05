@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -59,8 +60,10 @@ public class ViewCart extends HttpServlet {
 		
 		PreparedStatement stmt=null;
 		ResultSet rs= null;
+		RequestDispatcher rd1=request.getRequestDispatcher("/header");
+		RequestDispatcher rd2=request.getRequestDispatcher("/footer");
 		
-		
+		rd1.include(request, response);
 		String str="";
 		str+="<table border=1 >";
 		str+="<thead>";
@@ -110,7 +113,7 @@ public class ViewCart extends HttpServlet {
 		}
 		
 		out.print("<br/><a href='home'>Home</a>");
-		
+		rd2.include(request, response);
 	}
 
 	/**

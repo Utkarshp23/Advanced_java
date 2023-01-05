@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+pageEncoding="ISO-8859-1" import="entities.User"%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Insert title here</title>
+  </head>
+  <body>
+    <form action="handleUpdate">
+      <input type="text" name="" id="" value=${(User)session.getAttribute('user').getUid()} disabled />
+      <input type="text" name="" id="" value=${(User)session.getAttribute('user').getPwd()} disabled />
+      <input type="text" name="" id="" value=${(User)session.getAttribute('user').getFname()} disabled />
+      <input type="text" name="" id="" value=${(User)session.getAttribute('user').getMname()} disabled />
+      <input type="text" name="" id="" value=${(User)session.getAttribute('user').getLname()} disabled />
+      <input type="text" name="" id="" value=${(User)session.getAttribute('user').getEmail()}  />
+      <input type="text" name="" id="" value=${(User)session.getAttribute('user').getMono()}  />
+    </form>
+  </body>
+</html>

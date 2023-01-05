@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\0106_0036\Advanced_Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3804931989.index
+\Server_1\src\main\java
+D:\0106_0036\Advanced_Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1957768475.index
+\Shopping_App\src\main\java
+D:\0106_0036\Advanced_Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3647537853.index
+\JSP's\src\main\java

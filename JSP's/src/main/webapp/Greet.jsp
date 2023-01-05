@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import="java.text.*, java.util.Date,java.util.Calendar"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<%
+	DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+	Date date = new Date();
+	out.println(dateFormat.format(date));
+	int n= date.getHours();
+	if(n>6 && n<12)
+	{
+		out.print("Good Morning");
+	}else if(n<17)
+	{
+		out.print("Good afternoon");
+	}else if(n<20)
+	{
+		out.print("Good evening");
+	}else{
+		out.print("Good night");
+	}
+	%>
+
+</body>
+</html>

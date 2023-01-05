@@ -8056,3 +8056,1564 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-01-02 19:07:21.971 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-01-02 19:07:40.740
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-02 19:07:40.740
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fb28ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@536f389,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-02 19:07:40.740
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b33f7a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71b6edfb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-02 19:07:52.628
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:21.648
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:22.126
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:22.546
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:23.812
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:23.869
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:24.005
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:24.118
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:24.813
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:24.974
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:25.123
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:25.299
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:26.643
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:26.769
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:26.872
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:26.923
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:27.683
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:28.199
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:28.431
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:28.961
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:34.690
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:34.893
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:35.091
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:35.334
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:35.492
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:35.659
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:35.814
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:35.981
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:37.292
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:37.509
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:37.663
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:37.756
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:42.191
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:42.546
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:44.978
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:47.390
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:47.875
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:48.118
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:48.267
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:48.418
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:48.989
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:49.203
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:49.288
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:49.621
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:16:49.887
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:21:04.611
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-02 19:21:05.722
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:27.866
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:29.728
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:29.965
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:30.204
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:30.441
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:31.389
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:31.674
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:31.964
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:27:46.633
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:11.310
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:11.557
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:12.047
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:12.635
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:12.803
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:13.412
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:13.585
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:14.156
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:14.556
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:15.701
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:16.095
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:18.332
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:18.510
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:18.674
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:19.329
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:19.710
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:19.812
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:19.879
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:20.027
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:23.193
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:33.619
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:33.757
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:34.420
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:34.613
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:35.258
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:35.812
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:37.782
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:38.604
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:38.749
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:46.960
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:47.149
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:47.820
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:47.932
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:48.004
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:28:48.218
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-01-03 09:31:17.117
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package servlets;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ * Servlet implementation class Logout
+ */
+@WebServlet("/logout")
+public class Logout extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		HttpSession session =request.getSession(false);
+		if(session!=null)		
+		{
+			sessopm/om
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2243)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-01-03 09:31:17.368
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2243)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-01-03 09:31:17.372
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2243)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3037)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:36:41.729
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:36:43.495
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:49.166
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:49.393
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:49.571
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:49.763
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:50.210
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:50.328
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:51.443
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:53.969
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:54.520
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:55.887
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:56.079
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:56.184
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:56.625
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:56.827
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:56.980
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:57.138
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:57.923
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:38:59.358
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:00.325
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:00.333
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:01.079
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:01.614
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:02.206
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:03.727
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:03.876
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:04.250
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:04.404
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:04.584
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:04.760
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:06.207
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:06.788
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:07.215
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:07.969
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:08.093
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:08.330
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:08.515
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:08.670
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:35.489
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:42.337
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:43.668
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:46.706
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:51.562
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:52.121
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:54.824
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:39:55.138
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:40:05.029
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:40:07.714
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:41:19.069
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:41:19.997
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:41:20.233
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:41:21.739
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:41:22.276
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:11.950
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:13.512
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:14.084
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:14.413
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:14.611
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:14.805
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:14.992
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:15.315
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:42.356
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:42.738
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:43.576
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:43.589
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:44.555
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:44.774
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:45.002
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:45.219
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:45.434
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:45.627
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:45.815
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:46.004
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:46.206
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:46.455
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:46.679
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:46.890
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:47.106
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:47.329
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:47.564
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:47.785
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:47.991
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:48.214
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:48.414
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:48.632
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:48.825
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:49.020
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:49.219
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:49.409
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:49.617
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:42:49.827
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:10.400
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:10.572
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:10.753
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:10.864
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:11.012
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:11.431
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:11.560
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:11.665
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:11.814
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:12.371
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:12.572
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:12.653
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 09:45:13.666
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+!SESSION 2023-01-03 10:35:09.360 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-01-03 10:35:17.107
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-01-03 10:35:30.718
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-03 10:35:30.718
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@130ad58d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@648bfebe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-03 10:35:30.718
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@383a5260,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4986b0ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-03 10:35:47.803
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-01-03 10:39:37.653
+!MESSAGE Several ports (8005, 8080) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-01-03 10:40:19.160
+!MESSAGE Several ports (8005, 8080) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-01-03 10:44:16.586
+!MESSAGE Several ports (8005, 8080) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-01-03 10:51:03.279
+!MESSAGE Several ports (8005, 8080) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2023-01-03 10:56:40.859 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-01-03 10:57:05.295
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-03 10:57:05.295
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29767156,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f6998b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-03 10:57:05.295
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60493524,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1da5635e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-03 10:57:25.644
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:56:53.926
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:56:54.189
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:00.857
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:02.973
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:03.244
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:03.420
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:03.578
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:03.691
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:04.097
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:04.557
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:04.802
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:05.222
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:05.313
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:05.676
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:05.732
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:06.050
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:06.124
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:12.876
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:13.012
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:13.171
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:13.454
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:13.691
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:14.383
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:15.279
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:15.402
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:20.176
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:21.335
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:21.411
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:21.745
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:21.982
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:22.208
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:22.319
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:23.261
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:23.493
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:23.663
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:23.816
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:23.968
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:24.138
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:24.463
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:38.827
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:38.942
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:39.030
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:39.254
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:57:51.870
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:58:03.831
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 11:59:24.719
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:00:14.660
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:00:15.728
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:00:15.806
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:00:15.937
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:01:06.060
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:01:06.467
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:01:08.700
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:01:09.024
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.368
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.477
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.483
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.488
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.494
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.498
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.503
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.509
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.539
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.543
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.545
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.548
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.550
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.552
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.554
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.558
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.561
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.564
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.567
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.570
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.573
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.576
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.579
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.581
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.584
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.587
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.589
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.591
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.593
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.595
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.597
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:09:26.600
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:36.758
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:38.165
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:38.279
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:38.378
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:38.440
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:38.600
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:52.191
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:53.968
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:54.780
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:54.939
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:30:55.429
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:47.654
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:47.777
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:47.927
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:48.663
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:48.884
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:49.038
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:49.202
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:50.230
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:50.808
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:56.999
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:57.090
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:57.223
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:57.323
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:31:57.817
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:00.593
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:00.726
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:00.900
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:01.417
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:18.656
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:25.426
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:25.870
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:25.961
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:26.096
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:26.374
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:26.657
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:27.400
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:28.526
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:29.505
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:29.607
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:29.700
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:29.812
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:30.365
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:30.574
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:30.738
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:31.360
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:35.750
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:35.932
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:36.008
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:36.121
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:36.525
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:37.149
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:37.306
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:37.592
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:38.458
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:38.660
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:38.729
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:38.855
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:38.998
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:39.119
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:39.471
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:39.779
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:40.267
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:40.877
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:46.809
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:32:50.870
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:44.101
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:45.224
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:45.276
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:45.402
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:45.538
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:46.397
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:47.404
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:33:47.535
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:04.922
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:05.331
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:05.450
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:05.923
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:16.292
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:23.535
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:24.042
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:24.729
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:24.817
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:25.687
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:34:26.413
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:35:24.444
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:35:25.761
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:35:25.868
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:35:26.015
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:35:26.126
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:36:43.120
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:36:43.276
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:36:43.424
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:36:43.811
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:36:44.705
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:38:12.754
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:38:13.137
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:44:04.326
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:44:04.330
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:44:10.186
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+
+!ENTRY org.eclipse.jdt.core 2 0 2023-01-03 12:44:20.871
+!MESSAGE Unable to instantiate formatter extension 'com.thegreatgooo.eclipse.prettier.PrettierFormatter', returning built-in formatter.
+!SESSION 2023-01-03 19:05:09.705 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-01-03 19:05:21.283
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-03 19:05:21.283
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24ccc91b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d0538b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-03 19:05:21.283
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b8c15de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26398f67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-03 19:05:32.278
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 4 0 2023-01-03 19:11:34.800
+!MESSAGE java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1159)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	... 6 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-01-03 19:11:34.823
+!MESSAGE java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1159)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.CompletionStage.toCompletableFuture()" because the return value of "java.util.function.Function.apply(Object)" is null
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	... 6 more

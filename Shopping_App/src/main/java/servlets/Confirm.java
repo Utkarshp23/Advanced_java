@@ -9,6 +9,7 @@ import java.sql.SQLException;
 import java.util.Calendar;
 import java.sql.Date;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -57,16 +58,20 @@ public class Confirm extends HttpServlet {
 		
 		PreparedStatement stmt=null;
 		PrintWriter out= response.getWriter();
+		RequestDispatcher rd1=request.getRequestDispatcher("/header");
+		RequestDispatcher rd2=request.getRequestDispatcher("/footer");
 		
 		Date d= new Date(System.currentTimeMillis());
 		try {
-			stmt=con.prepareStatement("insert into shopping values(?,?,?)");
+			stmt=con.prepareStatement("insert into shopping (user_id,shoppingDate,totalprice) values(?,?,?)");
 			stmt.setString(1,u.getUid());
 			stmt.setDate(2,d);
 			stmt.setString(3,request.getParameter("tp"));
-			
+			int n=stmt.executeUpdate();
+			rd1.include(request, response);
 			out.print("Order Confirmed");
 			out.print("<br/><a href='home'>Home</a>");
+			rd2.include(request, response);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

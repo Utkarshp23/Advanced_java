@@ -91,7 +91,7 @@ public class Logincheck extends HttpServlet {
 				}
 				HttpSession session= request.getSession();
 				
-				User u= new User(rs.getString(1),rs.getString(3),rs.getString(5));
+				User u= new User(rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6),rs.getString(7));
 				session.setAttribute("user", u);
 				
 				RequestDispatcher rd= request.getRequestDispatcher("/home");

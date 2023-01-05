@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -36,10 +37,14 @@ public class AddToCart extends HttpServlet {
 		session.setAttribute("cart", products);
 		
 		PrintWriter out= response.getWriter();
+		RequestDispatcher rd1=request.getRequestDispatcher("/header");
+		RequestDispatcher rd2=request.getRequestDispatcher("/footer");
+		rd1.include(request, response);
 		out.print("Product added to cart");
 		out.print("<br/>No. of Products:"+products.size());
 		out.print("<br/><br/><a href='viewcart'>viewcart</a><br/>");
 		out.print("<a href='home'>home</a><br/>");
+		rd2.include(request, response);
 	}
 
 	/**

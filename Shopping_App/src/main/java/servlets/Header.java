@@ -36,7 +36,10 @@ public class Header extends HttpServlet {
 		
 		HttpSession session = request.getSession();
 		User u=(User)session.getAttribute("user");
-		out.print("<h4>Welcome "+u.getFname()+" "+u.getLname()+"</h4>");
+		out.print("<h4 style='display:inline-block'>Welcome "+u.getFname()+" "+u.getLname()+"</h4>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;");
+		out.print("<a href='UpdateProf.jsp'>Update profile</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;");
+		
+		out.print("<a href='logout'>Logout</a><br/>");
 	}
 
 }

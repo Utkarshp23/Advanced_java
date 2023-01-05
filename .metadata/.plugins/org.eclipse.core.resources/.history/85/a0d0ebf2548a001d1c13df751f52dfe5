@@ -1,0 +1,99 @@
+package servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class GetProducts
+ */
+@WebServlet("/getProducts")
+public class GetProducts extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	Connection con;
+	/**
+	 * @see Servlet#init(ServletConfig)
+	 */
+	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+		con=(Connection) config.getServletContext().getAttribute("dbcon");
+	}
+
+	/**
+	 * @see Servlet#destroy()
+	 */
+	public void destroy() {
+		// TODO Auto-generated method stub
+		try {
+			con.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doPost(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		int cat_id=Integer.parseInt(request.getParameter("c_id"));
+		PreparedStatement stmt=null;
+		ResultSet rs=null;
+		RequestDispatcher rd1=request.getRequestDispatcher("/header");
+		RequestDispatcher rd2=request.getRequestDispatcher("/footer");
+		PrintWriter out= response.getWriter();
+		
+		try {
+			stmt=con.prepareStatement("select * from product where cat_id=?");
+			stmt.setInt(1, cat_id);
+			rs=stmt.executeQuery();
+			rd1.include(request, response);
+			String str="";
+			str+="<form action='addtocart'>";
+			str+="<select>";
+			str+="<option>Select Product</option>";
+			while(rs.next())
+			{
+				str+="<option value="+rs.getInt(1)+">"+rs.getString(2)+"</option>";	
+			}
+			str+="</select><br/>";
+			str+="<button type='submit'>Add to Cart</button>";
+			str+="</form>";
+			out.print(str);
+			rd2.include(request, response);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				rs.close();
+				stmt.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+	}
+
+}

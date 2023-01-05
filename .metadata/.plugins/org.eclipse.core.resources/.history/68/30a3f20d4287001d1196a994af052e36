@@ -1,0 +1,58 @@
+package pages;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class Validate
+ */
+@WebServlet("/validate")
+public class Validate extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	public void init(ServletConfig config) throws ServletException {
+		 	Connection con = null;
+		    String jdbcUrl = "jdbc:mysql://localhost:3306/test";
+		    String userName = "root";
+		    String password = "root1234";
+		    
+		    try {
+				Class.forName("com.mysql.cj.jdbc.Driver");
+				con = DriverManager.getConnection(jdbcUrl, userName, password);
+			} catch (ClassNotFoundException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		    catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		    System.out.println("Connected succesfully...");
+	}
+
+	public void destroy() {
+		
+	}
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		doGet(request, response);
+	}
+
+}
